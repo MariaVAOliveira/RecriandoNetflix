@@ -1,0 +1,130 @@
+:root{
+    --black:rgb(37, 36, 36);
+    --red:#E50914;
+    --white:rgb(219, 213, 213);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*Elementos basicos*/
+body{
+    background-color: var(--black);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 130px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+header .logo {
+    color: #E50914;
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    margin-left: 30px;
+    margin-top: 6px;                                  
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color: #fff;
+
+}
+
+/*Filme principal*/
+.titulofilme{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("./capa-house.jpg");
+
+    height: 385px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-left: 30px;
+    margin-right:10px;
+    margin-bottom: 40px;
+}
+
+.título {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    margin-left: 30px;
+    font-size: 13px;
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding: 14px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao2 {
+    margin-left: 30px;
+    font-size:13px;
+    background: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 14px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao2:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 5px;
+}
+.botao2 i{
+    margin-right: 5px;
+}
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{
+   width: 450px;
+  
+}
